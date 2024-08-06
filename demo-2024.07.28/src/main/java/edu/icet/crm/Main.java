@@ -1,14 +1,13 @@
 package edu.icet.crm;
 
-import edu.icet.crm.model.Student;
-import edu.icet.crm.service.studentService;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Main {
     public static void main (String[] args) {
-
-       studentService service = new studentService();
-       Student student = service.getStudent();
-        System.out.println(student);
+        SpringApplication.run(Main.class);
 
     }
 }

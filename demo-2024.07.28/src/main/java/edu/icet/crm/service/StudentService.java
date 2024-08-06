@@ -2,7 +2,7 @@ package edu.icet.crm.service;
 
 import edu.icet.crm.model.Student;
 
-public class studentService {
+public class StudentService {
 
     public Student getStudent(){
         Student student = new Student();
